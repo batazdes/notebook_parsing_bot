@@ -1,0 +1,11 @@
+{
+ "chosen_category": "ноутбуки",
+ "chosen_min_price": "11090",
+ "chosen_max_price": "55000",
+ "chosen_manufacture": "asus,acer,hp,",
+ "chosen_processor": "ryzen 3,athlon silver,athlon gold,",
+ "chosen_resolution": "1920х1080,",
+ "chosen_matrix": "ips,",
+ "chosen_ssd_size": "256 gb,",
+ "chosen_RAM_size": "8 gb,"
+}

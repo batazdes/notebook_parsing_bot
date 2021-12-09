@@ -267,14 +267,14 @@ async def parser (message: types.Message):
                     f"{hbold('Модель: ')} {item.get('name_model')}\n" \
                     f"{hbold('Цена: ')} {item.get('price')}\n"\
 
-            photo = open(f'C:\\Users\\79663\\PycharmProjects\\notebook_parsing_bot\\Notebooks_photo\\{item.get("name_model").replace("/","")}.jpg','rb')
+            photo = open(f'{way_to_directory}{item.get("name_model").replace("/","")}.jpg','rb')
             await message.answer(card)
             await bot.send_photo(chat_id=message.chat.id, photo=photo)
             nothing = []
             with open('result_data_citilink.json','w') as file:
                     json.dump(nothing,file)
 
-        files = glob.glob('C:\\Users\\79663\\PycharmProjects\\notebook_parsing_bot\\Notebooks_photo\\*')
+        files = glob.glob(f'{way_to_directory}*')
         for f in files:
             os.remove(f)
 

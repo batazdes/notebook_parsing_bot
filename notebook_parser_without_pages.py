@@ -1,3 +1,4 @@
+from config import way_to_directory
 import lxml.html
 import requests
 

@@ -37,7 +37,7 @@ def citilink_parser_base(url):
         )
 
         response_image = requests.get(links_image[i])
-        with open(f'C:\\Users\\79663\\PycharmProjects\\notebook_parsing_bot\\Notebooks_photo\\{names_model[i].replace("/","")}.jpg', 'wb') as f:
+        with open(f'{way_to_directory}{names_model[i].replace("/","")}.jpg', 'wb') as f:
             f.write(response_image.content)
     return final_objects
 

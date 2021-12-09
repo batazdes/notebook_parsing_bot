@@ -6,10 +6,9 @@
 Для работы программ необходимо установить библиотеки **aiogram**,**lxml**,**requests**.
 
 ```
-pip install requests
+pip install lxml
 pip install aiogram
-pip install bs4
-pip install termcolor
+pip install requests
 ```
 
 # Принцип работы.

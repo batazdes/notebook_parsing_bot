@@ -42,7 +42,7 @@ def citilink_parser_base(url):
     return final_objects
 
 def main():
-   citilink_parser_base(url='https://www.citilink.ru/catalog/noutbuki/?f=discount.any%2Crating.any%2Cacer%2C2788_31920kh1080&pf=discount.any%2Crating.any%2C2788_31920kh1080')
+   citilink_parser_base(url='https://www.citilink.ru/catalog/noutbuki/')
 
 if __name__=="__main__":
     main()

@@ -1,0 +1,4 @@
+aiogram==2.18
+lxml==4.7.1
+requests==2.27.1
+
